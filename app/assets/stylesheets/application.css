@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+ h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+.custom-link-button {
+  background-color: lightgrey;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.custom-link-button:hover {
+  background-color: grey;
+  color: white;
+}

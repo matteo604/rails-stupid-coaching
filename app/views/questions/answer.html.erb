@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <p class="mb-4" style=" border-color:grey">
+    <em><%= @question %></em><br>
+    <span class="text-muted">–You</span>
+  </p>
+
+  <div class="alert alert-warning" style="background-color: lightyellow;">
+    <strong><%= @response %></strong><br>
+    <span class="text-muted">–Your coach</span>
+  </div>
+
+  <%= link_to "Ask another question", ask_path, class: "custom-link-button mt-3" %>
+</div>
